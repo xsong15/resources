@@ -80,7 +80,7 @@ This first version is worth **35 points**.
 Save all the files in project folder. Commit/push to GitHub. Create tag 'v1.0' for current release. Learn [tags and release](https://help.github.com/articles/working-with-tags/).
 
 ## Project Version 2
-- **Due Sunday 11/20/2019, by 11:59 PM**
+- **Due Sunday 11/17/2019, by 11:59 PM**
 
 This version has 2 parts. First, you extend your Version 1 by adding CSS and by filling in the gaps that may exist. Second, you must have your external host and domain name available with just the Home Page (index page) uploaded to the external host.
 
