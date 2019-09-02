@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CS15-Processing Form Inputs</title>
+    <style type="text/css">
+        form {
+            margin-left: 200px;
+            margin-right: 200px;
+            padding: 30px;
+            font-family: Arial;
+            font-weight: bold;
+            background-color: Silver;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Arial;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Your HTML goes here -->
+
+    <h1>Processing form inputs</h1>
+    <form action="" method="post">
+        <p>
+            <label>
+                Enter your name:
+                <input type="text" name="name" size="40"/>
+            </label>
+            <label>
+                Enter your age :
+                <input type="text" name="age"
+                       size="4"/>
+            </label>
+        </p>
+        <p>
+            <label>
+                Select your gender:
+                <select name="gender">
+                    <option value="Female"> Female</option>
+                    <option value="Male"> Male</option>
+                </select>
+            </label>
+        </p>
+        <p>
+
+            <label>Your selections will appear here:
+                <textarea name="result" cols="40" rows="3"></textarea>
+            </label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Show Me" style="width:100px;height:40px"/>
+            <input type="reset" name="reset" value="Clear Me" style="width:100px;height:40px"/>
+
+        </p>
+
+    </form>
+
+</body>
+
+</html>

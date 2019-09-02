@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practice Question CS14-InClass</title>
+    <style type="text/css">
+      #add,
+      #sub,
+      #mul,
+      #div,
+      #clr {
+        width: 50px;
+        height: 30px;
+      }
+
+      form {
+        background-color: silver;
+        margin: 30px 200px 30px 200px;
+        padding: 40px 40px 40px 200px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+    </style>
+    <script type="text/javascript"></script>
+  </head>
+
+  <body>
+    <h1>The making of a small calculator</h1>
+    <form action="">
+      <p>
+        <label>Your Result:
+          <input name="result" size="10" type="text" />
+        </label>
+      </p>
+      <p>
+        <label>Number 1:
+          <input name="num1" size="5" type="text" />
+        </label>
+        <label>Number 2:
+          <input name="num2" size="5" type="text" />
+        </label>
+      </p>
+      <p>
+        <input value="ADD" type="button" />
+        <input value="SUB" type="button" />
+        <input value="MULT" type="button" />
+        <input value="DIV" type="button" /> <br /><br />
+        <input id="clr" value="Clear" name="reset" type="reset" />
+      </p>
+    </form>
+  </body>
+</html>

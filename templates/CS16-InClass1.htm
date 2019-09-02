@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CS16-InClass1</title>
+    <style type="text/css">
+        form {
+            background-color: Silver;
+            font-family: Arial;
+            color: Navy;
+            padding: 30px 50px 30px 100px;
+            margin-right: 150px;
+            margin-left: 150px;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: Cursive;
+            color: Black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="" method="post">
+        <h2>Processing Radio Button and Check Box</h2>
+        <p>
+            Please select a background color for the page:
+        </p>
+        <p>
+            <label>
+                Green:
+                <input type="radio" name="colors" value="green"/>
+            </label>
+            <label>
+                Yellow:
+                <input type="radio" name="colors"
+                       value="yellow"/>
+            </label>
+            <label>
+                Lime:
+                <input
+                        type="radio" name="colors" value="lime"/>
+            </label>
+            <label>
+                Aqua:
+                <input type="radio"
+                       name="colors" value="aqua"/>
+            </label>
+        </p>
+        <p>
+            Please select your favorite magazines: <br/>
+            <label>
+                <input type="checkbox" name="mags" value="Sports Illustrated"/>
+                Sports Illustrated
+            </label><br/>
+            <label>
+                <input type="checkbox" name="mags" value="Wired"/>
+                Wired
+            </label><br/>
+            <label>
+                <input type="checkbox" name="mags" value="National Geographic"/>
+                National Geographic
+            </label><br/>
+            <label>
+                <input type="checkbox" name="mags" value="WSJ"/>
+                WSJ
+            </label>
+        </p>
+        <p>
+            <label> Your selections:<br/>
+                <textarea name="result" cols="40" rows="4"></textarea>
+            </label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Go!"/>
+            <input type="reset" name="Reset" value="Clear!"/>
+        </p>
+
+    </form>
+
+
+</body>
+
+</html>

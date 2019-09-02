@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>JQuery Template File</title>
+        <style type="text/css">
+            /* The styles go here*/
+        </style>
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+        <script type="text/javascript">
+            function findSelected() {
+
+                let selected;
+
+                // Your code goes here.
+
+                selected.css('background-color', '#ffd351');
+                return false;
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <div id="test-jquery">
+            <p id="para-1" class="color-red">JavaScript</p>
+            <p id="para-2" class="color-green">Java</p>
+            <p class="color-red color-green">PHP</p>
+            <p class="color-black">Python</p>
+            <form class="test-form" target="_blank" action="">
+                <fieldset>
+                    <p><label>name: <input name="name"></label></p>
+                    <p><label>email: <input name="email"></label></p>
+                    <p><label>password: <input name="password" type="password"></label></p>
+                    <p>
+                        <button onclick="return findSelected();">sign up</button>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <div>
+            Select the following elements using jQuery selectors:
+            <ul>
+                <li>JavaScript Only</li>
+                <li>PHP Only</li>
+                <li>JavaScript and PHP</li>
+                <li>All the programming languages</li>
+                <li>the name input</li>
+                <li>the name input and the email input</li>
+            </ul>
+            Note: Do not change any code in body.
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Form Validation</title>
+
+    <style type="text/css">
+        form {
+            margin: 50px 100px 50px 100px;
+            background-color: Silver;
+            font-family: Arial;
+            padding: 20px 50px 20px 100px;
+            color: Navy;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Lucida Bright;
+            color: Navy;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function () {
+            // All jQuery functions go here
+
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <!-- Your HTML goes here -->
+    <h1> Validating form inputs with Validation - jQuery</h1>
+    <form action="" method="post">
+        <p>
+            Last Name: <input type="text" name="lastname" size="20" maxlength="20"/> First Name:
+            <input type="text" name="firstname" size="15" maxlength="20"/>
+        </p>
+        <p>
+            Gender: <input type="radio" name="gender" value="Male"/> Male
+            <input type="radio" name="gender" value="Female"/>Female
+        </p>
+        <p>
+            My favorite Webtech topics are:<br/>
+            <input type="checkbox" name="faves" value="HTML"/> Basic HTML <br/>
+            <input type="checkbox" name="faves" value="CSS"/> CSS <br/>
+            <input type="checkbox" name="faves" value="Tables"/> Tables <br/>
+            <input type="checkbox" name="faves" value="Forms"/> Forms
+        </p>
+        <p>
+            Email Address: <input type="text" name="email"/>
+        </p>
+        <p>
+            Birth Date: (dd.mm.yyyy) <input type="text" name="bdate"/>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="SUBMIT FORM"/>
+            <input type="reset" name="reset" value="CLEAR FORM"/>
+        </p>
+    </form>
+
+</body>
+
+</html>

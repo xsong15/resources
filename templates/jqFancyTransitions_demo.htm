@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JQuery Template File</title>
+    <style type="text/css">
+        /* The styles go here*/
+    </style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/jqFancyTransitions.1.8.min.js"></script>
+    <link href="css/jqFancyTransitions_demo.css" rel="stylesheet"/>
+    <script type="text/javascript">
+        $(function () {
+            $('#gallery').jqFancyTransitions({
+                effect: 'wave', // wave, zipper, curtain
+                strips: 15, // number of strips
+                delay: 3000, // delay between images in ms
+                stripDelay: 20, // delay beetwen strips in ms
+                titleOpacity: 0.8, // opacity of title
+                titleSpeed: 2000, // speed of title appereance in ms
+                position: 'curtain', // top, bottom, alternate, curtain
+                direction: 'fountainAlternate', // left, right, alternate, random, fountain, fountainAlternate
+                navigation: true, // prev and next navigation buttons
+                links: false // show images as links
+            });
+        })
+    </script>
+
+</head>
+
+<body>
+    <!-- Your HTML goes here -->
+    <div id="gallery">
+        <img src="images/tiger1.jpg" title="Funky roots"/>
+        <img src="images/tiger2.jpg" title="The long and winding road"/>
+        <img src="images/tiger3.jpg" title="Happy trees"/>
+    </div>
+
+
+</body>
+
+</html>

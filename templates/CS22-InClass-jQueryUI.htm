@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Example of a Form</title>
+
+    <style type="text/css">
+        /* Your styles go here */
+
+        body {
+            width: 50%;
+            margin: auto
+        }
+
+        h1,
+        h2 {
+            text-align: center
+        }
+
+        .ar {
+            text-align: right
+        }
+    </style>
+
+    <script type="text/javascript">
+        /* Your JavaScript goes here */
+    </script>
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+    <h2>Please provide feedback about your experience with our product</h2>
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table style="margin-left:50px">
+                <tr>
+                    <td class="ar">Your Name:</td>
+                    <td><input type="text" name="YourName" size="30"/></td>
+                </tr>
+                <tr>
+                    <td class="ar">EMail Address:</td>
+                    <td><input type="text" name="email" size="30"/></td>
+                </tr>
+                <tr>
+                    <td class="ar">Phone:</td>
+                    <td><input type="text" name="phone" size="30"/></td>
+                </tr>
+                <tr>
+                    <td>Perferred contact:</td>
+                    <td style="padding-left:30px">EMail <input type="radio" name="pcontact" value="e"/> Phone
+                        <input type="radio" name="pcontact" value="p"/></td>
+                </tr>
+            </table>
+        </fieldset>
+        <p>
+            How satisfied were you with our product?
+            <select name="satisfaction">
+                <option value="vs">Very Satisfied</option>
+                <option value="s">Satisfied</option>
+                <option value="n">Neither Satisfied nor Dissatisfied</option>
+                <option value="d">Dissatisfied</option>
+                <option value="vd">Very Dissatisfied</option>
+            </select></p>
+        <p>Please explain your satisfaction choice above:</p>
+        <p><textarea name="comments" rows="5" cols="60"></textarea></p>
+        <p>Where have you used our product (Select all that apply)?
+            <br/> Kitchen <input type="checkbox" name="where" value="kitchen"/> Dining Room <input type="checkbox"
+                                                                                                   name="where"
+                                                                                                   value="dr"/> Living
+            Room <input type="checkbox" name="where" value="lr"/> Office
+            <input type="checkbox" name="where" value="office"/> Other <input type="checkbox" name="where"
+                                                                              value="office"/>
+        </p>
+        <p style="text-align:center"><input type="submit" name="Submit" value="Submit"/>&nbsp;&nbsp;&nbsp;<input
+                type="reset" name="Reset" value="Reset"/></p>
+    </form>
+</body>
+
+</html>
