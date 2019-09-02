@@ -11,9 +11,7 @@
 - Office: Babson Hall 216D
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Phone: (781)239-5915
-- Office Hours: 
-    * Section 01: Monday, Wednesday, 3:00PM – 4:00PM or by Appointment
-    * Section 02: Tuesday, Thursday, 3:00PM – 4:00PM or by Appointment
+- Office Hours: Tuesday, Thursday, 4:40 PM – 6:00 PM or by Appointment
 
 ## Communication
 
